@@ -29,6 +29,16 @@ To use this program, you need to install the following Python modules via pip:
 pip install numpy opencv-python mss pytesseract screeninfo
 ```
 
+Note: don't forget to install tesseract on your system in order for the pytesseract library to function.
+
+To install tesseract on macOS, you can install the package with Homebrew:
+
+```bash
+brew install tesseract
+```
+
+Note: Homebrew installation isn't covered in this documentation.
+
 ## Usage
 
 1. Run the script.
